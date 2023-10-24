@@ -34,7 +34,7 @@ export default function PricingPage() {
                       Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
                       Egestas lacus, blan dit pellentesque.
                     </p>
-                    <ul className="dark:text-gray-300 mb-9 list-disc">
+                    <ul className="dark:text-gray-300 mb-9  list-inside  tick-list ">
                       <li>Item 1</li>
                       <li>Item 1</li>
                       <li>Item 1</li>
@@ -70,7 +70,7 @@ export default function PricingPage() {
                       Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
                       Egestas lacus, blan dit pellentesque.
                     </p>
-                    <ul className="dark:text-gray-300 mb-9 list-disc">
+                    <ul className="dark:text-gray-300 mb-9 list-inside  tick-list ">
                       <li>Item 1</li>
                       <li>Item 1</li>
                       <li>Item 1</li>
@@ -98,12 +98,13 @@ export default function PricingPage() {
                     <h3 className="mb-1 text-4xl dark:text-gray-300 font-bold leading-none">
                       On request
                     </h3>
-                    <hr className="my-6" />
+
+                    <hr className="my-6 mt-12" />
                     <p className="mb-2 dark:text-gray-300 font-medium leading-relaxed">
                       Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
                       Egestas lacus, blan dit pellentesque.
                     </p>
-                    <ul className="dark:text-gray-300 mb-9 list-disc">
+                    <ul className="dark:text-gray-300 mb-9 list-inside  tick-list ">
                       <li>Item 1</li>
                       <li>Item 1</li>
                       <li>Item 1</li>

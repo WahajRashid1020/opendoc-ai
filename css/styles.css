@@ -1,3 +1,6 @@
+ul.tick-list {
+  list-style-type: "✓ ";
+}
 .slick-dots {
   z-index: 10;
 }
