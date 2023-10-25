@@ -1,8 +1,5 @@
-import Image from "next/image";
-import Container from "./container";
-import heroImg from "../public/img/hero.png";
-import TypeWriter from "./writereffect";
 import { RevealWrapper } from "next-reveal";
+import TypeWriter from "./writereffect";
 
 const Hero = () => {
   return (
@@ -12,7 +9,7 @@ const Hero = () => {
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap">
               <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
-                <h1 className=" mb-6 w-full text-3xl lg:text-5xl font-bold font-heading md:max-w-xl leading-none">
+                <h1 className=" mb-6 w-full text-4xl lg:text-5xl font-bold font-heading md:max-w-xl leading-none">
                   Build AI powered <br />
                   <span className="text-red-600">
                     <TypeWriter />

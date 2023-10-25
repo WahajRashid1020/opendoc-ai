@@ -26,7 +26,7 @@ function Feature({ heading, items, media, invert = false }: Feature) {
         >
           <div className="w-full md:w-1/2 p-8">
             <RevealWrapper>
-              <h2 className="mb-6 text-6xl md:text-7xl font-bold font-heading tracking-px-n leading-tight">
+              <h2 className="mb-6 text-4xl md:text-5xl font-bold font-heading tracking-px-n leading-tight">
                 {heading}
               </h2>
             </RevealWrapper>
