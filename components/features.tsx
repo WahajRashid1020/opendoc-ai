@@ -80,7 +80,7 @@ export default function Features() {
       ],
       media: (
         <img
-          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-[30rem] w-auto"
+          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-auto max-w-[30rem]"
           src="/assets/features/one-prompt-workflows.png"
         />
       ),
@@ -97,7 +97,7 @@ export default function Features() {
       ],
       media: (
         <img
-          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-[30rem] w-auto"
+          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-auto max-w-[30rem]"
           src="/assets/features/reusable-processes.png"
         />
       ),
@@ -111,7 +111,7 @@ export default function Features() {
       ],
       media: (
         <img
-          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-[30rem] w-auto"
+          className="transform hover:-translate-y-12 transition ease-in-out duration-1000 h-auto max-w-[30rem]"
           src="/assets/features/chat-your-way.gif"
         />
       ),

@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="overflow-hidden pt-16">
           <div className="container px-4 mx-auto">
             <div className="flex flex-wrap">
-              <div className="w-full lg:w-1/2 p-8 flex flex-col justify-center">
+              <div className="w-full lg:w-1/2 lg:p-8 flex flex-col justify-center">
                 <h1 className=" mb-6 w-full text-4xl lg:text-5xl font-bold font-heading md:max-w-xl leading-none">
                   Build AI powered <br />
                   <span className="text-red-600">
