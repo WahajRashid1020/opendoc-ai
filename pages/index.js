@@ -4,6 +4,8 @@ import Hero from "../components/hero";
 import Features from "../components/features";
 import LogoClouds from "../components/logo-clouds";
 import Testimonials from "../components/testimonialscard";
+import SectionTitle from "../components/sectionTitle";
+import Faq from "../components/faq";
 
 const Home = () => {
   return (
@@ -21,6 +23,11 @@ const Home = () => {
       <LogoClouds />
       <Features />
       <Testimonials />
+      <SectionTitle pretitle="" title="Frequently Asked Questions">
+        Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.
+      </SectionTitle>
+      <Faq />
     </>
   );
 };
